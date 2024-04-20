@@ -1,0 +1,50 @@
+* {
+    font-size: 24px;
+}
+
+#dropdown {
+    display: inline-block;
+}
+
+button {
+    background-color: pink;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button p {
+    display: inline;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+    display: none;
+}
+
+li {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+li:hover {
+    background-color: rgb(246, 156, 171);
+}
+
+button:hover {
+    background-color: rgb(246, 156, 171);
+}
+
+#dropdown:hover ul {
+    display: block;
+}
